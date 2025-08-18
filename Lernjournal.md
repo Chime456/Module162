@@ -3,5 +3,4 @@
 **Markdown Tutorial**
 Heute haben wir mit Github angefangen. Da ich schwierigkeiten hatte mich bei Gitlab zu registrieren, habe ich mich stattdessen im Github angemeldet.
 Danach fing es an mit der erster Auftrag welches das [Markdown Tutorial](https://www.markdowntutorial.com/de/) war.
-Es waren insgesamt 8 Tutorials wie man im Github & Gitlab programmiert.
-Es war Kursiv- und Fettgedruckt.
+Es waren insgesamt 8 Tutorials zu den Grundlagen wie man im Github & Gitlab programmiert.
