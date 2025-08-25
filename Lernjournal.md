@@ -67,4 +67,4 @@ Werte sind häufbar, wenn sie mehrfach vorkommen können.
 * **Häufbar**:  
   Sie werden in einem Fragebogen an der TBZ gefragt, welche Module sie im letzten
   Semester besuchten.
-  Durch die Fragestellung wird klar, dass sie mehrere Module auswählen können.
+  Durch die Fragestellung wird klar, dass sie mehrere Module auswählen können
