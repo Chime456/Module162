@@ -173,19 +173,108 @@ Finden sie die ASCII Codes für die folgenden Zeichen:
 
 ## Datenstrukturen
 
-Datensatz / Record / Tupel
-Array
-VerketteteListe
-Stapelspeicher/ Stack
-Warteschlange
-Vorrangwarteschlange
-Graph
-Baum
-Heap
-Hashtabelle
+<details> 
+  <summary>Datensatz / Record / Tupel</summary>
 
+* Es verfügt Werte, die in ander Werte enthalten sind - in fest definierten Anzahl und Folge
+* besteht aus mehreren Elementen - Datenfeld
+Beispiel: ID=12, Vorname=Hans, Nachname=Wenger, Telefonnummer=07911111111, Adresse=Zuercherstrasse 12
+</details>
 
+<details> 
+  <summary>Array</summary>
 
+* speichert mehrere Variabeln vom gleichen Datentyp
+* jedes einzelnen Element hat die Möglichkeit zugriff über einen Index
+* mehrdimensional (2D,3D, ...), z.B. Tabellen
+Beispiel: [12, 45, 23, 38, 28], ["Hans", "Werner", "Sabine", "Rafael", "Susanne"]
+</details>
+
+<details> 
+  <summary>VerketteteListe</summary>
+
+* Liste von Elementen, die dynamisch wachsen
+* Jedes Element zeigt auf das nächste Element
+* die Elemente werden eins nach dem anderen verarbeitet
+* einfach-verkettete-Liste nur von vorne nach hinten, doppelt-verkettete-Liste kann auch Rückwärts durchlauft werden
+Beispiel: Am besten kannst du dir eine Liste vorstellen wie ein Fahrstuhl.
+</details>
+
+<details> 
+  <summary>Stapelspeicher/ Stack</summary>
+
+* die gespeicherten Objekte können nur in **umgekehrter Reihenfolge** wieder gelesen werden
+* LIFO Prinzip, Last-In-First-Out
+* Die funktion der zur letzt verarbeitet wurde wird zuerst abgearbeitet, evt. rückgabwert zurückgeben und dann wird gelöscht, dann wird die zuvoraufgerufte funktion verarbeitet
+* Funktion verwalten und werte organisieren
+* Stacks auch als einfach verkettete Liste/Dynamische Array verwirklichen
+</details>
+
+<details> 
+  <summary>Warteschlange</summary>
+
+* die gespeicherten Objekte können nur in den gleichen Reihenfolge wieder gelesen werden
+* FIFO-Prinzip, First-In-First-Out:
+Stell dir eine Perlenkette vor: Perlen kannst du nur an den Enden auffädeln oder entfernen, ohne die Kette zu zerstören. Genauso funktioniert eine Queue mit Datensätzen.
+* wird meist als einfach verkettete Liste oder als dynamisches Feld realisiert
+</details>
+
+<details> 
+  <summary>Vorrangwarteschlange</summary>
+
+* Prioritätswarteschlange; wird die Elemente priorisiert
+* sortiert das Objekt gemäss der gegebenen Proirität
+</details>
+
+<details> 
+  <summary>Graph</summary>
+Ein Graph besteht aus einer Menge an Knoten V und Knoten E
+  
+* enthält Referenzen auf mehrere Objekte
+* kanten können gerichtet und ungerichtet sein
+* den Kontengrad gibt an wie viele Kanten an einem Knoten hängen
+* Ein Graph kann zusammenhängend sein; d.h gibt es Pfade zwischen allen Knoten.
+* Gewichtete Graphen: zusätzliche Werte auf den Kanten, Entfernungen oder Kosten, nützlich für Berechnungen wie die kürzeste Route.
+</details>
+
+<details> 
+  <summary>Baum</summary>
+
+* Binärbaum: Ein Baum, bei dem jeder Knoten höchstens zwei Nachfolger hat – links und rechts.
+* Tiefe: Die Anzahl der Kanten vom Knoten zur Wurzel.
+* Höhe: Die maximale Tiefe aller Blätter im Baum.
+* Größe: Die Gesamtzahl der Knoten im Baum.
+* Vollständiger Binärbaum: Alle Ebenen sind vollständig gefüllt, außer der letzten, die von links nach rechts aufgefüllt ist.
+* Partiell geordneter Baum: Knoten sind markiert und folgen einer Ordnung: Alle Knoten im linken Teilbaum sind kleiner oder gleich der Wurzel, im rechten Teilbaum größer oder gleich.
+</details>
+
+<details> 
+  <summary>Heap</summary>
+
+* Es vereint die Datnestruktur eines Baums mit dem Operationen einer Vorrangwarteschlange
+* Speicherung von Mengen, unterstützt verschiedene Operationen: z.B. einfügen und entfernen der Elemente
+* Flexible Größe bis zur Speichergrenze auf Prozessebene
+* Durch schwierige interne Verwaltung, Anlegen und Entnehmen langsamer
+* Ohne Garbage Collector manuelle Freigabe des Speichers
+</details>
+
+<details> 
+  <summary>Hashtabelle</summary>
+
+* eine spezielle Indexstruktur, bei der die Speicherposition direkt berechnet werden kann
+* Informationen abspeichern
+
+Beispiel:
+Key: Paul
+value: Telefon#
+
+Hashfunktion  (key) -> Indexnummer
+Hashfunktion  (Paul) -> 3
+Hashfunktion  (Person) -> 1
+Hashfunktion  (Person) -> 2
+Hashfunktion  (Person) -> 4
+Hashfunktion  (jemand) -> 3, die 3 ist vergeben, daraus wird ein link erstellt auch chaining gennant
+</details>
 
 
 
