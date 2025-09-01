@@ -71,7 +71,7 @@ Werte sind häufbar, wenn sie mehrfach vorkommen können.
 
 -------
 
-## Datentypen
+# Datentypen
 TAG 3, 01.09.2025
 
 **Ganze Zahlen**   
@@ -104,15 +104,16 @@ CHARACTER:
 
 **Gleitkommazahlen**   
 DOUBLE:
-SINGLE:
+FLOAT:
 
-**Zeiger**   
-ACCESS:
-POINTER:
+**Zeichenkette feste/variabler Länge**  
+ARRAY:
 
-**Konstanter Nullzeiger**   
-
-
+**Datum & Zeit**  
+DATE:
+TIME:
+DATETIME:
+TIMESTAMP:
 
 ---------
 
@@ -170,9 +171,18 @@ Finden sie die ASCII Codes für die folgenden Zeichen:
 | **a** - z | 97 - 122 | 61 - 7A |
 | **DEL** | 127 | 7F |
 
+## Datenstrukturen
 
-
-
+Datensatz / Record / Tupel
+Array
+VerketteteListe
+Stapelspeicher/ Stack
+Warteschlange
+Vorrangwarteschlange
+Graph
+Baum
+Heap
+Hashtabelle
 
 
 
