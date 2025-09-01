@@ -68,3 +68,122 @@ Werte sind häufbar, wenn sie mehrfach vorkommen können.
   Sie werden in einem Fragebogen an der TBZ gefragt, welche Module sie im letzten
   Semester besuchten.
   Durch die Fragestellung wird klar, dass sie mehrere Module auswählen können
+
+-------
+
+## Datentypen
+TAG 3, 01.09.2025
+
+**Ganze Zahlen**   
+BIGINT: 64 bit, Darstellung sehr großer Ganzzahlen gedacht  
+BIN (Binary): bit ist felxibel, reiner Binärwert / Bitmuster, das man entweder als Zahl oder als Datenblock interpretiert.
+INT: 
+LONG:
+SHORT:
+
+**Natürliche Zahlen**   
+NATURAL:
+BYTE: 8 bit, kleinster ganzzahliger Speicherbereich, der für kleine Zahlen, Steuerwerte, Flags oder Rohdaten verwendet wird.  
+CARDINAL: 16-32 bit, ganze Zahl ≥ 0, typischerweise 32 Bit, wird verwendet, wenn negative Zahlen nicht sinnvoll sind.
+
+**Festkommazahlen (Dezimalzahlen)**   
+COMP-3: bit ist flexibel, platzsparender, präziser Dezimal-Datentyp für Finanz- und Geschäftsanwendungen.  
+CURRENCY: 64 bit, 64-Bit-Festkommazahl für Geldbeträge, die präzise Berechnungen ermöglicht, ohne dass Rundungsfehler auftreten.
+
+**Aufzählungstypen**   
+ENUM: ein Wert aus einer festen Liste  
+SET/IMPLIZIT: mehrere Werte aus einer festen Liste gleichzeitig
+
+**Boolean**   
+BOOL:
+BOOLEAN:
+
+**Zeichen (einzelnes Zeichen)**   
+CHAR:
+CHARACTER:
+
+**Gleitkommazahlen**   
+DOUBLE:
+SINGLE:
+
+**Zeiger**   
+ACCESS:
+POINTER:
+
+**Konstanter Nullzeiger**   
+
+
+
+---------
+
+# Auftrag: Datentypen
+
+#### Aufgabe 1
+
+Welche Datentypen könnten den folgenden Werten zugrunde liegen?
+
+| Wert                                           | Datentype(n) |
+| ---------------------------------------------- | ------------ |
+| A                                              |  Zeichen      |
+| 23                                             |  Ganz Zahl     |
+| 12021.25                                       |  Dezimalzahl     |
+| 0                                              |  Ganze Zahl   |
+| Ciara                                          |  Zeichenkette        |
+| 12.2341235211                                  |  Dezimalzahl             |
+| true                                           |  BOOLEAN     |
+| oben,unten                                     |  Aufzählungstyp         |
+| .f},ÌúþÃ¸ìîìbõ©/=¹ryïòƒÇâ‘hðÂ.š¿ã‘q            |  Blob            |
+| {name: "Meier", vorname: "Maxwell", alter: 21} |  RECORD      |
+
+#### Aufgabe 2
+
+Diskutieren Sie den Unterschied zwischen den folgenden Darstellungen von Verbunds-Typen "Noten". Halten sie ihre Erkenntnisse schriftlich fest.
+
+**Darstellung 1**
+
+Note:  
+Tabelle  
+| Wert     | Name |
+|----------|------|
+| 5.4      | Marcel Maier |
+
+**Darstellung 2**
+
+Note:  
+Jason = Struktur  
+{Wert = 5.4, Name = Marcel Maier}
+
+#### Aufgabe 3
+
+Finden sie die ASCII Codes für die folgenden Zeichen:
+
+| Zeichen | Code dez | Code hex |
+|---|---|---|
+| + | | |
+| n | | |
+| TAB | | |
+| **CR** Zeilensprung | |  |
+| **LF** neue Zeile | |  |
+| **Leerzeichen** | | |
+| **0** - 9 |  |  |
+| **A** - Z | 65  | 41 |
+| **a** - z |  |  |
+| **DEL** | |  |
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
