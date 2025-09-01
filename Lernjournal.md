@@ -159,16 +159,16 @@ Finden sie die ASCII Codes für die folgenden Zeichen:
 
 | Zeichen | Code dez | Code hex |
 |---|---|---|
-| + | | |
-| n | | |
-| TAB | | |
-| **CR** Zeilensprung | |  |
-| **LF** neue Zeile | |  |
-| **Leerzeichen** | | |
-| **0** - 9 |  |  |
-| **A** - Z | 65  | 41 |
-| **a** - z |  |  |
-| **DEL** | |  |
+| + | 43 |2B |
+| n | 110 | 6E |
+| TAB | 9 | 09 |
+| **CR** Zeilensprung | 13 | 0D |
+| **LF** neue Zeile | 10 | 0A |
+| **Leerzeichen** | 32 | 20 |
+| **0** - 9 | 48 - 57 | 30 - 39 |
+| **A** - Z | 65 - 90  | 41 - 5A |
+| **a** - z | 97 - 122 | 61 - 7A |
+| **DEL** | 127 | 7F |
 
 
 
