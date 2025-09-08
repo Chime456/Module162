@@ -1,6 +1,6 @@
 # Daten Analysieren und modellieren-Module162
 Tag 1
---------
+
 **Markdown Tutorial**  
 Heute haben wir die Einführung mit Gitlab bzw. Github. Da ich schwierigkeiten hatte mich bei Gitlab zu registrieren, habe ich mich stattdessen im Github angemeldet.
 Danach fing es an mit der erster Auftrag welches das [Markdown Tutorial](https://www.markdowntutorial.com/de/) war.
@@ -16,10 +16,10 @@ Insgesamt sind es 8 Tutorials zu den Grundlagen wie man im Github & Gitlab progr
 
 Dazu konnte man die [Basic Syntaxe](https://www.markdownguide.org/basic-syntax/) nachschauen, was mehr theorie mit Beispiele enthaltet, welches mit der HTML vergliechen wird.
 
+--------
 
 # Strukturierte und unstrukturierte Daten  
 Tag 2
---------
 
 To Do:
 [Strukturierte und Unstrukturierte Daten](https://gitlab.com/ch-tbz-it/Stud/m162/-/blob/main/Daten_Formate/StrukturierteDaten.md?plain=0)  
@@ -275,6 +275,38 @@ Hashfunktion  (Person) -> 2
 Hashfunktion  (Person) -> 4
 Hashfunktion  (jemand) -> 3, die 3 ist vergeben, daraus wird ein link erstellt auch chaining gennant
 </details>
+
+--------
+
+# Json - JavaScript Object Notation
+TAG 4, 08.09.2025 
+
+JASON ist ein Textformat um Daten zu speichern und Transportieren. 
+
+ähnlich wie XML
+APIs erstellen
+leicht um hin und zurück zu senden, wegen den kleinen datei grösse
+nicht viele open und closing tags, macht es leichter zu lesen und verstehen als XML
+ist kompatibel mit mehrere Sprachen
+wird mit JavaScript verarbeitet
+
+**Typen**
+Strings     "Hello World" "P"
+Number      10  1.5 -30  1.2e350
+Booleans    true false
+null        steht für nichts
+Arrays      "[]" unterteilt man mit einem Komma
+Object      "{}"
+
+**JASON Daten**
+JASON Daten werden werden als Name-Wert Paar geschrieben: "firstName":"John"
+
+**JASON Objekte**
+
+
+**JASON Arrays**
+
+### Wissenstreppe
 
 
 
