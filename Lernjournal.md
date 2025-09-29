@@ -308,8 +308,17 @@ JASON Daten werden werden als Name-Wert Paar geschrieben: "firstName":"John"
 
 ### Wissenstreppe
 
+-----------
+# Normalisierung
+Tag 6, 29.09.2025
 
+### Relationale Datenbank (1-3NF)
+**ACID-Model**  
 
+**Vorteile von relationalen Datenbanken**  
+
+**Begriffserklärung**  
+<img width="860" height="300" alt="image" src="https://github.com/user-attachments/assets/2a9dd643-d42a-4b19-9f66-15166f9ed5a1" />
 
 
 
