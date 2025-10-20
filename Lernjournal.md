@@ -312,10 +312,38 @@ JASON Daten werden werden als Name-Wert Paar geschrieben: "firstName":"John"
 # Normalisierung
 Tag 6, 29.09.2025
 
-### Relationale Datenbank (1-3NF)
+Kardinalität
+
+**Chen Notation**
+entität
+beziehung
+attribut
+
+**ERM (ERD)**
+übersicht für datenbanken und die struktur
+
+Normalformen
+### Relationale Datenbank (1-3NF)  
+1NF Keine mehrfachen Werte, atomar -> so klein wie möglich trennen/ordnen, Spalten aufteilen
+
+2NF logische Gruppe, Tabellen nach Entitäten trennen, Ein Relationstyp (Tabelle) befindet sich genau dann in der zweiten Normalform (2NF), wenn er sich in der ersten Normalform (1NF) befindet und jedes Nichtschlüsselattribut von jedem Schlüsselkandidaten voll funktional abhängig ist.
+
+3NF keine transitive Abhängigkeit (nochmal gruppieren), Attribute logisch weiter aufteilen, Ein Relationstyp befindet sich genau dann in der dritten Normalform (3NF), wenn er sich in der zweiten Normalform (2NF) befindet und kein Nichtschlüsselattribut transitiv von einem Kandidatenschlüssel abhängt.
+
+?reverse engineering?
+retour ablauf
+Etwas Fertiges auseinandernehmen, um zu verstehen, wie es funktioniert.
+
+FK: Foreign Key kann es geben wenn es eine Beziehung (Entität) gibt
+PK: Primary Key ist immer in der erste Spalte
+
 **ACID-Model**  
+4 eigenschaften
+stellt zuverlässige Transaktionen in Datenbankensysteme sicher
+video anschauen
 
 **Vorteile von relationalen Datenbanken**  
+
 
 **Begriffserklärung**  
 <img width="860" height="300" alt="image" src="https://github.com/user-attachments/assets/2a9dd643-d42a-4b19-9f66-15166f9ed5a1" />
