@@ -330,6 +330,10 @@ Normalformen
 
 3NF keine transitive Abhängigkeit (nochmal gruppieren), Attribute logisch weiter aufteilen, Ein Relationstyp befindet sich genau dann in der dritten Normalform (3NF), wenn er sich in der zweiten Normalform (2NF) befindet und kein Nichtschlüsselattribut transitiv von einem Kandidatenschlüssel abhängt.
 
+-----------
+# Repetition
+Tag 7, 20.10.2025
+
 ?reverse engineering?
 retour ablauf
 Etwas Fertiges auseinandernehmen, um zu verstehen, wie es funktioniert.
